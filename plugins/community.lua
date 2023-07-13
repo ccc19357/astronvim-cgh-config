@@ -5,5 +5,20 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.pack.html-css" },
+
+   --utility 
+  { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
+
+  --scrolling
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
+
+  --editing-support
+  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
+  { import = "astrocommunity.editing-support.telescope-undo-nvim" },
 }
